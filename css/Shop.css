@@ -1,0 +1,76 @@
+
+/*Head*/
+.Head
+{
+    margin: 150px 0 0 ;
+}
+
+.Head .imag
+{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.Head .imag img
+{
+    transition: all 0.5s ease-in-out;
+}
+.Head .imag img:hover
+{
+    transform: scale(1.07);
+}
+.Head .info
+{
+    margin-bottom: 30px;
+}
+.Head .product
+{
+    margin-bottom: 30px;
+}
+.Head ul .f
+{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+}
+.Head ul .t{
+    font-size: 16px;
+    margin-top: 4px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+.Head ul .t span
+{
+    text-decoration: line-through;
+    padding-left: 11px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.Head .shopall
+{
+    margin:50px 0px;
+    text-align: center;
+}
+
+@media(max-width:490px)
+{
+    .Head ul .f {
+        font-size: 13px;
+    }
+    .Head .text-muted 
+    {
+        font-size: 12px;
+    }
+    .Head ul .t span {
+     
+        padding-left: 0;
+        font-size: 11px;
+        display: block;
+    }
+}
+@media(min-width:767px)
+{
+    .Head ul .t span 
+{
+    font-size: 16px;
+}
+}

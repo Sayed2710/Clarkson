@@ -1,0 +1,173 @@
+.product
+{
+    padding: 50px 0;
+}
+.product .info
+{
+    display: flex;
+    justify-content: space-between;
+}
+.product .info
+{
+    line-height: 2;
+}
+.product .info p:last-of-type span
+{
+    text-decoration: line-through;
+}
+.product .img
+{
+    margin: 0 auto;
+    width: 100%;
+
+}
+.parag
+{
+    padding: 34px 44px 5px;
+    background: #fbfbfb;
+}
+.parag .del
+{
+    padding-bottom: 16px;
+}
+.parag .del .s
+{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 13px;
+    margin-top: 11px;
+}
+.parag .del .t span
+{
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.disc
+{
+    color: #444;
+}
+.datasend
+{
+    padding-top: 22px;
+}
+.datasend h3
+{
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.datasend input
+{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+}
+.datasend button
+{
+    padding: 16.5px 60px;
+    background: #212121;
+    border: 2px solid #212121;
+    color: #fff;
+    outline: none;
+    font-family: sans-serif;
+    margin-left: -3.5px;
+    letter-spacing: 1.5px;
+}
+@media(max-width:499px)
+{
+    .datasend button
+    {
+        padding: 16.5px 21px;
+        
+    } 
+}
+@media(max-width:992px)
+{
+    .product .img
+{
+    margin-bottom: 30px;
+}
+}
+/*more*/
+.more
+{
+    margin: 50px 0 0 ;
+}
+.more h2 
+{
+    font-size: 38px;
+    font-weight: 600 !important;
+    margin-bottom: 30px;
+    word-spacing: -3.5px;
+}
+.more .imag
+{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.more .imag img
+{
+    transition: all 0.5s ease-in-out;
+}
+.more .imag img:hover
+{
+    transform: scale(1.07);
+}
+.more .info
+{
+    margin-bottom: 30px;
+}
+.more .product2
+{
+    margin-bottom: 30px;
+}
+.more ul .f
+{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+}
+.more ul .t{
+    font-size: 16px;
+    margin-top: 4px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+.more ul .t span
+{
+    text-decoration: line-through;
+    padding-left: 11px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.more .shopall
+{
+    margin:50px 0px;
+    text-align: center;
+}
+
+@media(max-width:490px)
+{
+    .more ul .f {
+        font-size: 13px;
+    }
+    .more .text-muted 
+    {
+        font-size: 12px;
+    }
+    .more ul .t span {
+     
+        padding-left: 0;
+        font-size: 11px;
+        display: block;
+    }
+}
+@media(min-width:767px)
+{
+    .more ul .t span 
+{
+    font-size: 16px;
+}
+}

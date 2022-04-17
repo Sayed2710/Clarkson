@@ -1,0 +1,273 @@
+[
+    {
+        "id": 1,
+        "image": "5f5e12e5dfcb5d158f886014_item-36.jpg",
+        "name": "Comfort Eyewear",
+        "type": "Unisex Eyewear",
+        "cat": [
+            "arrival",
+            "warm"
+        ],
+        "salary": 34.00,
+        "discount": 59.00,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "5f5d598c6298aa45e9c554e8_item-26.jpg",
+        "name": "Breio Pink Attack",
+        "type": "Lady's Bag",
+        "cat": [
+            "trend"
+        ],
+        "salary": 39.99,
+        "discount": 85.00,
+        "prop": [
+            "100% handwoven",
+            "Size: 23” x 40”",
+            "Cotton & Leather"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "5f5d59a633781621b763c998_item-25.jpg",
+        "name": "Weezbee Rose Gold",
+        "type": "Lady's Bag",
+        "cat": [
+            "arrival"
+        ],
+        "salary": 19.99,
+        "discount": 59.99,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Plastic Skin"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "5f5ceaf319c6991cd97810cf_maksim-larin-NOpsC3nWTzY-unsplash.jpg",
+        "name": "Nike Air The Chosen One",
+        "type": "Men's Shoe",
+        "cat": [
+            "trend"
+        ],
+        "salary": 99.99,
+        "discount": 149.99,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 5,
+        "image": "5f5ce62f0ee399e2b6510b0c_trinh-minh-th-dQ_06MscOeM-unsplash-p-1600.jpeg",
+        "name": "Vivio Brown",
+        "type": "Women's Shoe",
+        "cat": [
+            "arrival",
+            "trend"
+        ],
+        "salary": 44.99,
+        "discount": 79.99,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Plastic Skin"
+        ]
+    },
+    {
+        "id": 6,
+        "image": "5f5d5a189a4fb55345b25843_item-22.jpg",
+        "name": "Express Black",
+        "type": "Men's Shoe",
+        "cat": [
+            "trend",
+            "sall"
+        ],
+        "salary": 99.99,
+        "discount": 159.99,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 7,
+        "image": "5f5d5a3310a78555ded9ba39_item-14.jpg",
+        "name": "Ideal Irene",
+        "type": "Lady's Bag",
+        "cat": [
+            "sall",
+            "warm"
+        ],
+        "salary": 55.99,
+        "discount": 89.99,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 8,
+        "image": "5f5d5a47f0ee5f6f3396ec10_item-21.jpg",
+        "name": "Ghost White Runner",
+        "type": "Men's Shoe",
+        "cat": [
+            "trend",
+            "sall",
+            "wild",
+            "warm"
+        ],
+        "salary": 85.00,
+        "discount": 150.00,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 9,
+        "image": "5f5ce50f08d9e6b647b84424_natanni-K_nnOg6-vZ4-unsplash.jpg",
+        "name": "Brigade Blue",
+        "type": "Women's Bag",
+        "cat": [
+            "wild",
+            "warm"
+        ],
+        "salary": 75.00,
+        "discount": 120.00,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 10,
+        "image": "5f5d5a81399698156089639e_item-02.jpg",
+        "name": "Trivio Black",
+        "type": "Women's Handbag",
+        "cat": [
+            "trend",
+            "wild"
+        ],
+        "salary": 45.00,
+        "discount": 77.00,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 11,
+        "image": "5f5d5a9e0ee39959b9520a59_item-13.jpg",
+        "name": "Snake Leather",
+        "type": "Women's Shoe",
+        "cat": [
+            "trend"
+        ],
+        "salary": 35.99,
+        "discount": 89.00,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 12,
+        "image": "5f5d5aac9a4fb5299eb2586d_item-12.jpg",
+        "name": "Pink Flamingo",
+        "type": "Women's Handbag",
+        "cat": [
+            "sall"
+        ],
+        "salary": 45.99,
+        "discount": 99.99,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 13,
+        "image": "5f5d5ac40ee3994a9e520a73_item-17.jpg",
+        "name": "Melvin Kicks",
+        "type": "Men's Shoe",
+        "cat": [
+            "arrival",
+            "warm",
+            "wild"
+        ],
+        "salary": 299.99,
+        "discount": 359.99,
+        "prop": [
+            "100% handwoven",
+            "Size: 23” x 40”",
+            "Cotton & Leather"
+        ]
+    },
+    {
+        "id": 14,
+        "image": "5f5d5af055c44ee8bcf9dcd8_item-07.jpg",
+        "name": "Virture Brown Leather",
+        "type": "Lady's Sandals",
+        "cat": [
+            "arrival",
+            "sall"
+        ],
+        "salary": 129.00,
+        "discount": 235.00,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 15,
+        "image": "5f5d5b067d07881088e66ee2_item-06.jpg",
+        "name": "Green Mamba",
+        "type": "Men's Shoe",
+        "cat": [
+            "arrival",
+            "trend",
+            "sall"
+        ],
+        "salary": 250.00,
+        "discount": 350.00,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    },
+    {
+        "id": 16,
+        "image": "5f5d5b2d8c8fa94dca9a609b_item-08.jpg",
+        "name": "Zone Out Type-A",
+        "type": "Men's Shoe",
+        "cat": [
+            "sall",
+            "wild"
+        ],
+        "salary": 59.99,
+        "discount": 180.50,
+        "prop": [
+            "100% Testing",
+            "Size: 11” x 24”",
+            "Leather Skin"
+        ]
+    }
+]

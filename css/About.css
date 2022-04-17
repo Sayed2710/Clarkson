@@ -1,0 +1,43 @@
+.Head
+{
+    padding: 50px 0;
+}
+.Head .f
+{
+margin-bottom: 50px;
+}
+.Head h2
+{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #333;
+}
+.Head h3
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #888;
+}
+.Head ul li
+{
+    margin: 23px 0;
+    max-width: 550px;
+}
+.Head ul li:first-of-type
+{
+    margin: 15px 0;
+}
+@media(max-width:499px)
+{
+    .Head h2
+{
+    font-size: 32px;
+   
+}
+.Head h3
+{
+    font-size: 28px;
+   
+}
+}

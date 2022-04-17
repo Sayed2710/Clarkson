@@ -1,0 +1,293 @@
+
+/*Header*/
+.Header
+{
+    height: 700px;
+}
+.Header .container
+{
+    height: 100%;
+  
+    background: url('../imag/ian-dooley-TT-ROxWj9nA-unsplash.jpg') no-repeat center top;
+    background-size: cover;
+    padding: 0;
+
+}
+
+.Header .Head
+{
+padding: 0px 50px;
+}
+.Header .Head h2
+{
+    font-family: Inter, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 400px;
+    color: #fff;
+    display: block;
+}
+.Header .Head p
+{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    max-width: 400px;
+    color: #fff;
+    display: block; 
+}
+.Header .Head button
+{
+    margin: 10px 0 20px;
+    background: #fff;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    border-radius: 2px;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+}
+.Header .overly
+{
+    width:100%;
+    height: 100%;
+    background: rgba(74, 21, 21, 0.33);
+    align-items: flex-end;
+    padding-bottom: 94px;
+    display: flex;
+}
+@media(max-width:499px)
+{
+    .Header .overly {
+        padding-bottom: 60px;
+    }
+    
+    .Header .Head p {
+        font-size: 17px;
+    }
+}
+@media(max-width:767px)
+{
+    .Header
+{
+    height: 500px;
+}
+.Header .Head h2 {
+    font-size: 42px;
+}
+}
+/*Arrival*/
+.Arrival,.Sall
+{
+    margin: 150px 0 0 ;
+}
+.Arrival h2 ,.Sall h2
+{
+    font-size: 38px;
+    font-weight: 600 !important;
+    margin-bottom: 30px;
+    word-spacing: -3.5px;
+}
+.Arrival .imag,.Sall .imag
+{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.Arrival .imag img,.Sall .imag img
+{
+    transition: all 0.5s ease-in-out;
+}
+.Arrival .imag img:hover,.Sall .imag img:hover
+{
+    transform: scale(1.07);
+}
+.Arrival .info,.Sall .info
+{
+    margin-bottom: 30px;
+}
+.Arrival .product,.Sall .product
+{
+    margin-bottom: 30px;
+}
+.Arrival ul .f,.Sall ul .f
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+}
+.Arrival ul .t,.Sall ul .t
+{
+    font-size: 16px;
+    margin-top: 4px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+.Arrival ul .t span,.Sall ul .t span
+{
+    text-decoration: line-through;
+    padding-left: 11px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.Arrival .shopall,.Sall .shopall
+{
+    margin:50px 0px;
+    text-align: center;
+}
+.Arrival .shopall button ,.Sall .shopall button
+{
+    background: #121212;
+    border:2px solid #121212;
+    border-radius: 2px;
+    color:#fff;
+    letter-spacing: 0.5px;
+    padding :10px 30px;
+    font-size: 15px;
+    outline:none
+}
+@media(max-width:490px)
+{
+    .Arrival ul .f, .Sall ul .f {
+        font-size: 13px;
+    }
+    .Arrival .text-muted ,.Sall .text-muted
+    {
+        font-size: 13px;
+    }
+    .Arrival ul .t span, .Sall ul .t span {
+     
+        padding-left: 0;
+        font-size: 13px;
+        display: block;
+    }
+    .Arrival h2 ,.Sall h2
+{
+    font-size: 35px;
+}
+}
+@media(min-width:767px)
+{
+    .Arrival ul .t span ,.Sall ul .t span
+{
+    font-size: 16px;
+}
+}
+/*Trend*/
+.Trending
+{
+    height: 700px;
+    margin: 100px 0;
+}
+.Trending .container
+{
+    height: 100%;
+  
+    background: url('../imag/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg') no-repeat center top;
+    background-size: cover;
+    padding: 0;
+
+}
+.Trending .Head
+{
+padding: 0px 50px;
+}
+.Trending .Head h2
+{
+    font-family: Inter, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    max-width: 600px;
+    color: #fff;
+    display: block;
+}
+.Trending .Head button
+{
+    margin: 10px 0 20px;
+    background: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    color: #000;
+    outline: none;
+}
+.Trending .overly
+{
+    width:100%;
+    height: 100%;
+    background: rgba(101, 22, 22, 0.33);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+@media(max-width:499px)
+{
+    .Trending .Head h2 {
+        font-size: 42px;
+    }
+
+}
+/*Just*/
+.Just
+{
+    margin: 100px 0;
+}
+.Just .f
+{
+    background: url('../imag/tamara-bellis-3t6rfsCaWiQ-unsplash.jpg') no-repeat center center;
+}
+.Just .s
+{
+    background: url('../imag/geronimo-giqueaux-VyInRGBCjeQ-unsplash.jpg') no-repeat center top;
+    
+}
+.Just .f ,.Just .s
+{
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    height: 650px;
+    margin-bottom: 30px;
+}
+@media(max-width:767px)
+{
+    .Just .f ,.Just .s
+    {
+        
+        height: 350px;
+    
+    }  
+}
+.Just h3
+{
+    font-size: 35px;
+    font-weight: 600 !important;
+    margin-bottom: 30px;
+    word-spacing: -3.5px;
+}
+.Just h2
+{
+   
+        color: #fff;
+        font-weight: 600;
+        font-size: 39px;
+}
+@media(max-width:499px)
+{
+    .Just h2
+{
+        font-size: 30px;
+}
+}
+.Just button
+{
+    padding: 10px 20px;
+    background: #fff;
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 14px;
+    margin: 5px 0;
+}

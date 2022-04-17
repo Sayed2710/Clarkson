@@ -1,0 +1,69 @@
+.Head
+{
+    padding: 100px 0;
+    background: #121211;
+    color:#fff;
+    height: 500px;
+}
+.Head .container
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.Head h2
+{
+    font-size: 72px;
+    font-weight: bold;
+}
+.Head p
+{
+    font-size: 17px;
+    max-width: 550px;
+    margin: 0 auto;
+
+}
+@media(max-width:600px)
+{
+    .Head h2
+    {
+        font-size: 46px;
+    }
+    .Head p
+    {
+        font-size: 18px;
+    
+    } 
+    .Head
+{
+
+    height: 350px;
+}
+}
+/*posts*/
+.posts
+{
+    padding: 100px 0;
+}
+.posts .info {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.posts .col-6
+{
+    margin-bottom: 30px;
+}
+.posts img
+{
+    transition: all 0.5s ease-in-out;
+}
+.posts img:hover
+{
+    transform: scale(1.08);
+}
+.posts .img
+{
+    overflow: hidden;
+}

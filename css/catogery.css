@@ -1,0 +1,148 @@
+.Head 
+{
+    padding: 50px 0;
+}
+.Head .title
+{
+    font-size: 48px;
+    margin: 30px;
+    font-weight: bold;
+}
+@media(max-width:499px)
+{
+    .Head .title
+{
+    font-size: 40px;
+}
+}
+.Head .imag
+{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.Head .imag img
+{
+    transition: all 0.5s ease-in-out;
+}
+.Head .imag img:hover
+{
+    transform: scale(1.07);
+}
+.Head .info
+{
+    margin-bottom: 30px;
+}
+.Head .product
+{
+    margin-bottom: 30px;
+}
+.Head ul .f
+{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+}
+.Head ul .t{
+    font-size: 16px;
+    margin-top: 4px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+.Head ul .t span
+{
+    text-decoration: line-through;
+    padding-left: 11px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.Head .shopall
+{
+    margin:50px 0px;
+    text-align: center;
+}
+
+@media(max-width:490px)
+{
+    .Head ul .f {
+        font-size: 13px;
+    }
+    .Head .text-muted 
+    {
+        font-size: 12px;
+    }
+    .Head ul .t span {
+     
+        padding-left: 0;
+        font-size: 11px;
+        display: block;
+    }
+}
+@media(min-width:767px)
+{
+    .Head ul .t span 
+{
+    font-size: 16px;
+}
+}
+/*more*/
+.more
+{
+    margin: 100px 0;
+}
+.more .f
+{
+    background: url('../imag/tamara-bellis-3t6rfsCaWiQ-unsplash.jpg') no-repeat center center;
+}
+.more .s
+{
+    background: url('../imag/geronimo-giqueaux-VyInRGBCjeQ-unsplash.jpg') no-repeat center top;
+    
+}
+.more .f ,.more .s
+{
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    height: 650px;
+    margin-bottom: 30px;
+}
+@media(max-width:767px)
+{
+    .more .f ,.more .s
+    {
+        
+        height: 350px;
+    
+    }  
+}
+.more h3
+{
+    font-size: 35px;
+    font-weight: 600 !important;
+    margin-bottom: 30px;
+    word-spacing: -3.5px;
+}
+.more h2
+{
+   
+        color: #fff;
+        font-weight: 600;
+        font-size: 39px;
+}
+@media(max-width:499px)
+{
+    .more h2
+{
+        font-size: 30px;
+}
+}
+.more button
+{
+    padding: 10px 20px;
+    background: #fff;
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 14px;
+    margin: 5px 0;
+}
