@@ -1,6 +1,6 @@
 
 var Num = localStorage.getItem('product');
-$.getJSON('../js/Products.json', function (data) {
+$.getJSON('../js/Products.json', function (data){
     document.title = `${data[Num - 1].name}`;
     var pro = '';
 
