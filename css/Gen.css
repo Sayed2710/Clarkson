@@ -227,7 +227,7 @@ font-weight: 500;
     left: 0;
     top: 0;
 }
-@media(min-width:1800px)
+@media(min-width:1200px)
 {
     .Nav_bar .small_Nav
     {
